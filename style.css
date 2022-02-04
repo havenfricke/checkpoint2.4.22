@@ -1,0 +1,63 @@
+header{
+  height: 100vh;
+  width: auto;
+}
+
+main{
+  height: 100vh;
+  width: auto;
+}
+
+footer{
+  height: 100vh;
+  width: auto;
+}
+
+
+.header-row{
+  height: 100%;
+  width: 100%;
+}
+
+.main-font{
+  font-family: 'Orbitron', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.glow-button:hover {
+  filter: drop-shadow(5px 5px 10px rgb(167, 167, 167)) invert(50%);
+  transition: 100ms ease-out;
+}
+
+
+.parallax {
+  background-image: url('https://cdn.wallpapersafari.com/38/60/8iGstu.jpg');
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-background{
+  background-image: url('https://cdn.99images.com/photos/wallpapers/3d-abstract/4k-3d-geometric%20android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-dqwem.png');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+
+@supports (display: flex) {
+  @media screen and (min-width: 900px) {
+    #input-card {
+      width: 80%;
+      height: 80%;
+    }
+  }
+}
+
