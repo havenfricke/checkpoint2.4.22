@@ -31,7 +31,7 @@ body, html {
 }
 
 .glow-button:hover {
-  filter: drop-shadow(5px 5px 10px rgb(167, 167, 167)) invert(50%);
+  filter: drop-shadow(5px 5px 10px rgb(255, 0, 212)) saturate(100%);
   transition: 100ms ease-out;
 }
 
@@ -57,6 +57,8 @@ body, html {
   transform: translateX(-33%);
 }
 
+
+
 .move-that-card{
   transform: translateY(-77%) translateX(-22%);
 }
@@ -70,6 +72,15 @@ body, html {
   background-size: cover;
 }
 
+.move-that-ish{
+  transform: translateX(33%);
+}
+
+.move-that-yabish{
+  transform: translateX(22%);
+}
+
+
 @supports (display: flex) {
   @media screen and (max-width: 300px) {
     #input-card {
@@ -81,8 +92,16 @@ body, html {
 
 @supports (display: flex) {
   @media screen and (max-width: 800px) {
-    #text-right, #card2 {
+    #text-right, #card2, #go-away {
     display: none;
+    }
+  }
+}
+
+@supports (display: flex) {
+  @media screen and (max-width: 400px) {
+    #go-away {
+      transform: translateY(50%);
     }
   }
 }
@@ -91,7 +110,8 @@ body, html {
   @media screen and (max-width:800px) {
     #card3 {
       width: 90%;
-      transform: translateY(-77%) translateX(5%);
+      height: 48vh;
+      transform: translateY(-115%) translateX(5%);
     }
   }
 }
@@ -100,7 +120,41 @@ body, html {
   @media screen and (max-width:800px) {
     #card1 {
       width: 90%;
-      transform: translateY(110%) translateX(5%);
+      height: 25vh;
+      transform: translateY(200%) translateX(5%);
+    }
+  }
+}
+
+
+@supports (display: flex) {
+  @media screen and (max-width: 600px) {
+    #go-away3 {
+      display: none;
+    }
+  }
+}
+
+@supports (display: flex) {
+  @media screen and (max-width: 800px) {
+    #go-away4 {
+      display: none;
+    }
+  }
+}
+
+@supports (display: flex) {
+  @media screen and (max-width: 800px) {
+    #text-clapper1 {
+      transform: translateY(-20%);
+    }
+  }
+}
+
+@supports (display: flex) {
+  @media screen and (max-width: 800px) {
+    #text-clapper2 {
+      transform: translateY(-30%);
     }
   }
 }
