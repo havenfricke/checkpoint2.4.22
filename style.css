@@ -47,27 +47,42 @@ body, html {
 }
 
 .main-background{
-  background-image: url('https://cdn.99images.com/photos/wallpapers/3d-abstract/4k-3d-geometric%20android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-dqwem.png');
+  background-image: url('https://images6.alphacoders.com/884/thumb-1920-884393.jpg');
   height: 100%;
   width: 100%;
   background-size: cover;
 }
 
+.move-that-left{
+  transform: translateX(-33%);
+}
+
+.move-that-card{
+  transform: translateY(-77%) translateX(-22%);
+}
 
 @supports (display: flex) {
   @media screen and (max-width: 300px) {
     #input-card {
       display: flex;
-      width: 100%;
+      width: 90%;
     }
   }
 }
 
 @supports (display: flex) {
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 800px) {
     #text-right {
     display: none;
     }
   }
 }
 
+@supports (display: flex) {
+  @media screen and (max-width:400px) {
+    #card3 {
+      width: 90%;
+      transform: translateY(-77%) translateX(5%);
+    }
+  }
+}
