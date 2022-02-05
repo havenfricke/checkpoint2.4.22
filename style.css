@@ -37,7 +37,7 @@ body, html {
 
 
 .parallax {
-  background-image: url('https://cdn.wallpapersafari.com/38/60/8iGstu.jpg');
+  background-image: url('https://images-na.ssl-images-amazon.com/images/S/pv-target-images/593285e169754e128ee9772b0b3459c4b4078152c2842f3a5d222da0efad481b._RI_.jpg');
   height: 100%;
   width: 100%;
   background-attachment: fixed;
@@ -55,10 +55,18 @@ body, html {
 
 
 @supports (display: flex) {
-  @media screen and (min-width: 900px) {
+  @media screen and (max-width: 300px) {
     #input-card {
-      width: 80%;
-      height: 80%;
+      display: flex;
+      width: 100%;
+    }
+  }
+}
+
+@supports (display: flex) {
+  @media screen and (max-width: 480px) {
+    #text-right {
+    display: none;
     }
   }
 }
