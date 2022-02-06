@@ -11,7 +11,7 @@ footer{
 
 
 #footer-row{
-  transform: translateX(6.5%) translateY(0%);
+  transform: translateX(6.5%) translateY(33%);
   width: 88vw;
   height: 18vw;
 }
@@ -78,12 +78,12 @@ body, html {
 }
 
 .move-that-ish{
-  transform: translateY(-40%) translateX(10%);
+  transform: translateY(-50%) translateX(10%);
   max-height: 66vh;
 }
 
 .move-that-yabish{
-  transform: translateY(-11%) translateX(44%);
+  transform: translateY(-11%) translateX(39%);
 }
 
 
