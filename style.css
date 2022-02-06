@@ -11,11 +11,9 @@ footer{
 
 
 #footer-row{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translateX(0%) translateY(0%);
-  height: 33vh;
+  transform: translateX(6.5%) translateY(0%);
+  width: 88vw;
+  height: 18vw;
 }
 
 
@@ -34,8 +32,13 @@ body, html {
 }
 
 .glow-button:hover {
-  filter: drop-shadow(5px 5px 10px rgb(255, 0, 212)) (100%);
+  filter: drop-shadow(3px 3px 3px rgb(255, 0, 212)) saturate(90%);
+  color: rgb(255, 0, 212);
   transition: 100ms ease-out;
+}
+
+.review-cards{
+  transform: translateY(10%);
 }
 
 
@@ -76,6 +79,7 @@ body, html {
 
 .move-that-ish{
   transform: translateY(-40%) translateX(10%);
+  max-height: 66vh;
 }
 
 .move-that-yabish{
@@ -176,9 +180,9 @@ body, html {
   @media screen and (max-width: 900px) {
     #img-mover {
       display: flex;
-      max-width: 50vw;
-      max-height: 55vh;
-      transform: translateY(37%) translateX(-130%) ;
+      max-width: 45vw;
+      max-height: 45vh;
+      transform: translateY(40%) translateX(10%) ;
     }
   }
 }
