@@ -31,7 +31,7 @@ body, html {
 }
 
 .glow-button:hover {
-  filter: drop-shadow(5px 5px 10px rgb(255, 0, 212)) saturate(100%);
+  filter: drop-shadow(5px 5px 10px rgb(255, 0, 212)) (100%);
   transition: 100ms ease-out;
 }
 
@@ -58,7 +58,6 @@ body, html {
 }
 
 
-
 .move-that-card{
   transform: translateY(-77%) translateX(-22%);
 }
@@ -73,12 +72,14 @@ body, html {
 }
 
 .move-that-ish{
-  transform: translateX(33%);
+  transform: translateY(-33%) translateX(33%);
 }
 
 .move-that-yabish{
-  transform: translateX(22%);
+  transform: translateY(-100%) translateX(88%);
 }
+
+
 
 
 @supports (display: flex) {
@@ -99,7 +100,7 @@ body, html {
 }
 
 @supports (display: flex) {
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 800px) {
     #go-away {
       transform: translateY(50%);
     }
@@ -111,7 +112,7 @@ body, html {
     #card3 {
       width: 90%;
       height: 48vh;
-      transform: translateY(-115%) translateX(5%);
+      transform: translateY(-103%) translateX(5%);
     }
   }
 }
@@ -128,7 +129,7 @@ body, html {
 
 
 @supports (display: flex) {
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     #go-away3 {
       display: none;
     }
