@@ -103,7 +103,6 @@ body, html {
 
 
 
-
 @supports (display: flex) {
   @media screen and (max-width: 900px) {
     #text-right {
