@@ -37,11 +37,24 @@ body, html {
   transition: color 200ms ease-in;
 }
 
-i:hover {
+i {
   filter: drop-shadow(3px 0px 3px rgb(212, 95, 207));
   color: rgb(253, 142, 244)!important;
   transition: color 100ms ease-in;
 }
+
+i:hover {
+  filter: drop-shadow(3px 0px 3px rgb(255, 255, 255));
+  color: rgb(255, 255, 255)!important;
+  transition: color 100ms ease-in;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, p:hover, .btn:hover, img:hover, .card:hover {
+  filter: drop-shadow(3px 0px 3px rgb(214, 44, 205));
+  color: rgb(253, 142, 244)!important;
+  transition: color 777ms ease-in-out;
+}
+
 
 .review-cards{
   transform: translateY(10%);
