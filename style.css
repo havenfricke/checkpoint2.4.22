@@ -33,8 +33,14 @@ body, html {
 
 .glow-button:hover {
   filter: drop-shadow(3px 0px 3px rgb(212, 95, 207));
-  color: rgb(255, 45, 238)!important;
+  color: rgb(253, 142, 244)!important;
   transition: color 200ms ease-in;
+}
+
+i:hover {
+  filter: drop-shadow(3px 0px 3px rgb(212, 95, 207));
+  color: rgb(253, 142, 244)!important;
+  transition: color 100ms ease-in;
 }
 
 .review-cards{
