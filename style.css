@@ -111,7 +111,13 @@ body, html {
   }
 }
 
-
+@supports (display: flex) {
+  @media screen and (max-width: 281px) {
+    #go-away2 {
+    display: none;
+    }
+  }
+}
 
 
 @supports (display: flex) {
@@ -210,7 +216,7 @@ body, html {
       display: flex;
       max-width: 55vw;
       max-height: 55vh;
-      transform: translateY(50%) translateX(-74%) ;
+      transform: translateY(50%) translateX(60%) ;
     }
   }
 }
